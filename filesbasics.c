@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
- FILE *fp
+ FILE *fp;
  fp=fopen("c:\DELL","r");
  if (fp==NULL)
  {
